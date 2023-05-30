@@ -30,9 +30,9 @@ hyp:
   mosaic: 1.0
   mixup: 0.0
   copy_paste: 0.0
-epochs: 400
+epochs: 100
 batch_size: 20
-imgsz: 480
+imgsz: 640
 rect: false
 resume: false
 nosave: false
@@ -48,7 +48,7 @@ multi_scale: false
 single_cls: false
 optimizer: SGD
 sync_bn: false
-workers: 4
+workers: 2
 project: runs/train
 name: exp
 exist_ok: false
